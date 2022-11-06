@@ -1,26 +1,31 @@
 * {
 	box-sizing: border-box;
 }
-h1{
-	text-align: center;
-}
-p{
-	padding:5px 10px;
+body {
+	font-family: Helvetica, “Helvetica Neue”, Arial, sans-serif;
 }
 .row{
 	width: 100%;
-	margin-bottom:30px;
+	margin-bottom:20px;
 }
 .row section{
-	background-color: #808080;
+	background-color: #A9A9A9;
 	position:relative;
+	font-size: 16px;
+}
+h1{
+	text-align: center;
+	font-size: 1.75em;
+}
+p{
+	padding: 15px 10px;
 }
 .title, .title2, .title3{
 	margin:0;
 	padding:0;
 	text-align: center;
+	font-size: 1.25em;
 	width: 100px;
-	height:auto;
 	border-width: 0 0 2px 2px;
 	border-style: solid;
 	border-color: #000000;
